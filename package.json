@@ -1,0 +1,38 @@
+{
+  "name": "ng-browse",
+  "version": "0.0.1",
+  "description": "unified browse service for angularjs projects",
+  "main": "dist/ng-browse.min.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KillerCodeMonkey/ng-browse.git"
+  },
+  "keywords": [
+    "angular",
+    "uirouter",
+    "browse"
+  ],
+  "author": "Bengt Weiße",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KillerCodeMonkey/ng-browse/issues"
+  },
+  "homepage": "https://github.com/KillerCodeMonkey/ng-browse#readme",
+  "devDependencies": {
+    "karma": "0.13.15",
+    "karma-cli": "0.1.1",
+    "jasmine-core": "2.4.1",
+    "karma-jasmine": "0.3.6",
+    "karma-phantomjs-launcher": "0.2.1",
+    "angular-mocks": "1.4.8",
+    "gulp": "3.9.0",
+    "gulp-uglify": "1.5.1"
+  },
+  "dependencies": {
+    "ui-router": "0.2.15",
+    "angular": "1.4.8"
+  }
+}

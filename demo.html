@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Quill Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta charset="utf-8">
+
+        <style>
+            .input-error {
+                border: 2px dashed red;
+            }
+        </style>
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="node_modules/ui-router/release/angular-ui-router.min.js"></script>
+        <script type="text/javascript" src="src/ng-browse.js"></script>
+        <script>
+            // declare a module and load quillModule
+            var myAppModule = angular.module('test', ['ngBrowse']);
+            myAppModule.controller('AppCtrl', [
+                '$scope',
+                '$ngBrowse',
+                function($scope, $ngBrowse) {
+                    $scope.fullReload = function() {
+                        $ngBrowse.reload(true);
+                    };
+                }
+            ]);
+        </script>
+
+    <body ng-app="test" ng-strict-di ng-controller="AppCtrl">
+        <button ng-click="fullReload()">Full Reload</button>
+    </body>
+</html>
