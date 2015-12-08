@@ -1,4 +1,4 @@
-# ng-browse
+# ng-browse [![Build Status](https://travis-ci.org/KillerCodeMonkey/ng-browse.svg?branch=master)](https://travis-ci.org/KillerCodeMonkey/ng-browse)
 unified browse service for angularjs projects based on uiRouter and angular 1.x
 
 ## Installation
