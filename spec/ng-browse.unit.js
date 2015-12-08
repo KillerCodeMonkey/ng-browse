@@ -17,7 +17,7 @@ describe('ng-browse', function () {
     }));
     // undo overwritings
     afterEach(function () {
-        //$window.location.reload = temp;
+        $window.location.reload = temp;
     });
 
     describe('init', function () {
