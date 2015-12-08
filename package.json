@@ -4,7 +4,7 @@
   "description": "unified browse service for angularjs projects",
   "main": "dist/ng-browse.min.js",
   "scripts": {
-    "test": "karma start"
+    "test": "node_modules/.bin/karma start"
   },
   "repository": {
     "type": "git",
